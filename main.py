@@ -18,7 +18,8 @@ tim.speed(11)
 tim.pensize(2)
 tim.hideturtle()
 
-# Exercício 1
+# # Ex. 1: desenhar formas geometricas. "lados" define a forma (3 = triangulo, 4 = quadrado, etc)
+
 # lados = 3
 # while lados <= 10:
 #     for lado in range(lados):
@@ -26,12 +27,17 @@ tim.hideturtle()
 #         tim.right(360/lados)
 #     lados += 1
 
-# Exercício 2
+
+# # Ex. 2: fazer a turtle andar randomicamente
+
 # for _ in range (0, 40):
 #     direction = [0, 90, 180, 270]
 #     tim.forward(50)
 #     tim.setheading(random.choice(direction))
 #     change_color()
+
+
+# # Ex. 3: fazer a turtle desenhar pontos a partir de um ponto fixo.
 
 x = -450
 y = -350
