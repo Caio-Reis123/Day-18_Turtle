@@ -1,11 +1,13 @@
 from turtle import Turtle, Screen, left, right
 import random
 
+# Criação da turtle
 tim = Turtle()
 tim.shape('turtle')
 tim.color('green')
 
 def change_color():
+    """Altera a cor da turtle randomicamente"""
     R = random.random()
     B = random.random()
     G = random.random()
@@ -16,16 +18,13 @@ tim.speed(11)
 tim.pensize(2)
 tim.hideturtle()
 
-# lados = 3
-
 # Exercício 1
+# lados = 3
 # while lados <= 10:
 #     for lado in range(lados):
 #         tim.forward(100)
 #         tim.right(360/lados)
 #     lados += 1
-
-#direction = random.choice(right, left)
 
 # Exercício 2
 # for _ in range (0, 40):
